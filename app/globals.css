@@ -1,6 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply font-quicksand font-[18px] px-5 py-[10px];
+  }
+
+  .hover-main {
+    @apply transition hover:text-main duration-200 cursor-pointer;
+  }
+
+  .nav-hamburger {
+    @apply cursor-pointer;
+  }
+
+  .gradient-dark {
+    @apply bg-gradient-to-b from-backgroundMain from-60% to-transparent;
+  }
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -18,10 +37,4 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
