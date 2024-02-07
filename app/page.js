@@ -17,7 +17,7 @@ export default function Home() {
         <Stats />
         <Service />
         <Contact /> */}
-        <WhyUs />
+        {/* <WhyUs /> */}
       </div>
     </main>
   );
