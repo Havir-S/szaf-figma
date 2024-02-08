@@ -9,7 +9,6 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         statsBackground: "url('/StatsImg2.jpg')",
         buttonGradient: "linear-gradient(90deg, #FFEA55, #6A55FF)",
         mail: "url('/ContactMail.svg')",
@@ -24,7 +23,7 @@ module.exports = {
       },
       screens: {
         sm: "414px",
-        md: "744px",
+        md: "780px",
         lg: "915px",
         xl: "1440px",
       },
@@ -38,6 +37,7 @@ module.exports = {
       fontSize: {
         body: "18px",
         body3: "14px",
+        body4: "24px",
         paragraph1: "32px",
         header2: "64px",
       },

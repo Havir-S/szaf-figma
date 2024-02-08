@@ -3,7 +3,7 @@ import React from "react";
 
 function AboutUs() {
   return (
-    <div className="mx-auto w-[1440px] grid grid-cols-12 gap-6 px-20 ">
+    <div className="mx-auto w-[1440px] grid grid-cols-12 gap-6 px-20 border ">
       <div className="relative border  col-span-5">
         <div className="w-full flex justify-center items-center relative ">
           <Image

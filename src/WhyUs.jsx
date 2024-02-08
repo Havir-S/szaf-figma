@@ -4,7 +4,7 @@ import React from "react";
 function WhyUs() {
   return (
     <div className=" w-full mx-auto mt-24">
-      <div className=" w-90 max-w-[1440px] mx-auto ">
+      <div className=" w-full max-w-[1440px] mx-auto ">
         <div className="h-[354px]  w-full max-w-[1280px] mx-auto relative ">
           <div className="relative w-full max-w-[1280px] h-[354px] bg-whyUsBackground bg-repeat-x bg-center bg-cover  flex justify-end items-center">
             {/* <div className="w-[305px] h-[85px] absolute bottom-0 right-0 translate-y-1/2">

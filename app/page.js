@@ -5,7 +5,10 @@ import Nav from "@/src/Nav";
 import Service from "@/src/Service";
 import Stats from "@/src/Stats";
 import WhyUs from "@/src/WhyUs";
+import Questions from "@/src/Questions";
 import Image from "next/image";
+import Question from "@/components/Question";
+import Localization from "@/src/Localization";
 
 export default function Home() {
   return (
@@ -16,8 +19,15 @@ export default function Home() {
         <AboutUs />
         <Stats />
         <Service />
-        <Contact /> */}
-        {/* <WhyUs /> */}
+        <Contact />
+        <WhyUs /> */}
+        {/* <Questions>
+          <Question />
+          <Question />
+          <Question />
+          <Question />
+        </Questions> */}
+        <Localization />
       </div>
     </main>
   );
