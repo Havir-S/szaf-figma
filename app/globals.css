@@ -16,8 +16,11 @@
     @apply cursor-pointer;
   }
 
-  .gradient-dark {
+  /* .gradient-dark {
     @apply bg-gradient-to-b from-backgroundMain from-60% to-transparent;
+  } */
+  .gradient-dark {
+    @apply z-10 bg-backgroundMain border-b border-[#383838];
   }
 }
 

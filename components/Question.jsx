@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 export default function Question() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   function handleChange() {
     setIsOpen((prev) => !prev);

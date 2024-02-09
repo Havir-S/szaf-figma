@@ -3,9 +3,9 @@ import React from "react";
 
 function Stats() {
   return (
-    <div className=" w-full mx-auto ">
+    <div className=" w-full mx-auto  pt-16 border-t border-[#383838]">
       <div className=" w-90 max-w-[1800px] mx-auto">
-        <div className=" flex justify-center items-center gap-6 h-[495px] w-full bg-statsBackground bg-no-repeat bg-cover rounded-2xl">
+        <div className=" flex justify-center items-center gap-6 h-[495px] w-full bg-statsBackground bg-no-repeat bg-cover rounded-2xl shadow-2xl">
           <div className="flex flex-col justify-center h-full w-full max-w-[1350px] gap-5 px-12  ">
             {/* FILLER + IMG */}
             <div className="flex flex-row justify-center gap-[350px] items-center">

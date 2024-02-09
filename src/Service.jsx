@@ -95,9 +95,10 @@ function Service() {
                 </div>
               </div>
             </div>
-
+            <div className=" border h-full border-[#998E33]" />
             {/* BUTTON */}
-            <div className=" border border-[#998E33] w-[375px] h-fit flex flex-col justify-center items-center px-6 py-8 rounded-xl gap-[52px]">
+            {/* <div className=" border border-[#998E33] w-[375px] h-fit flex flex-col justify-center items-center px-6 py-8 rounded-xl gap-[52px]"> */}
+            <div className=" w-[375px] h-fit flex flex-col justify-center items-center px-6 py-8 rounded-xl gap-[52px]">
               <div className="text-center">
                 <p className=" text-body leading-extra-loose">Cena:</p>
                 <p className=" text-paragraph1 font-ptsans font-bold text-main">
@@ -212,9 +213,7 @@ function Service() {
                 </p>
               </div>
             </div>
-            {/* col 3 */}
-            <div className="flex flex-row justify-around w-full items-center">
-              {/* row 1 */}
+            {/* <div className="flex flex-row justify-around w-full items-center">
               <div className="flex flex-col justify-center items-center p-4 gap-3 bg-[#0D0D0D] rounded-3xl max-w-[200px]">
                 <div className="relative rounded-full bg-[#1E1E1E] w-12 h-12">
                   <Image
@@ -229,7 +228,6 @@ function Service() {
                   Przyłączasz gaz, prąd i wodę do działki
                 </p>
               </div>
-              {/* row 2 */}
               <div className="flex flex-col justify-center items-center p-4 gap-3 bg-[#0D0D0D] rounded-3xl max-w-[200px]">
                 <div className="relative rounded-full bg-[#1E1E1E] w-12 h-12">
                   <Image
@@ -244,7 +242,6 @@ function Service() {
                   Przyłączasz gaz, prąd i wodę do działki
                 </p>
               </div>
-              {/* row 3 */}
               <div className="flex flex-col justify-center items-center p-4 gap-3 bg-[#0D0D0D] rounded-3xl max-w-[200px]">
                 <div className="relative rounded-full bg-[#1E1E1E] w-12 h-12">
                   <Image
@@ -259,7 +256,7 @@ function Service() {
                   Przyłączasz gaz, prąd i wodę do działki
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

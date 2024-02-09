@@ -3,7 +3,8 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="mx-auto w-[1440px] min-h-[400px] mt-12  ">
+    <div className="mx-auto w-[1440px] min-h-[400px] mb-24  ">
+      <div className="w-3/5 border-t  pt-12 border-[#383838] mx-auto" />
       <div className="flex flex-col justify-center items-center">
         <div className="w-[172px] h-[68px] relative">
           <Image

@@ -9,26 +9,30 @@ import Questions from "@/src/Questions";
 import Image from "next/image";
 import Question from "@/components/Question";
 import Localization from "@/src/Localization";
+import Footer from "@/src/Footer";
 
 export default function Home() {
   return (
-    <main className=" bg-backgroundMain min-h-screen font-quicksand ">
-      <Nav />
-      <div className="grid gap-12">
-        {/* <Header />
-        <AboutUs />
-        <Stats />
-        <Service />
-        <Contact />
-        <WhyUs /> */}
-        {/* <Questions>
-          <Question />
-          <Question />
-          <Question />
-          <Question />
-        </Questions> */}
-        <Localization />
-      </div>
-    </main>
+    <div>
+      <main className=" bg-backgroundMain min-h-screen font-quicksand ">
+        <Nav />
+        <div className="grid gap-12">
+          <Header />
+          <AboutUs />
+          <Stats />
+          <Service />
+          <Contact />
+          <WhyUs />
+          <Questions>
+            <Question />
+            <Question />
+            <Question />
+            <Question />
+          </Questions>
+          <Localization />
+        </div>
+      </main>
+      <Footer />
+    </div>
   );
 }

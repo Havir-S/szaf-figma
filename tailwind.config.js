@@ -15,11 +15,14 @@ module.exports = {
         phone: "url('/ContactPhone.svg')",
         facebook: "url('/ContactFacebook.svg')",
         whyUsBackground: "url('/WhyUsImg2.svg')",
+        whyUsBackground2: "url('/WhyUsImg4.svg')",
+        signs: "url('/LocalizationImg5.svg')",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       letterSpacing: {
         little: "-.075e",
+        extra: "0.50em",
       },
       screens: {
         sm: "414px",
@@ -44,7 +47,7 @@ module.exports = {
       colors: {
         main: "#FFEA55",
         secondary: "#6A55FF",
-        backgroundMain: "#121212",
+        backgroundMain: "#0c0c0c",
       },
       lineHeight: {
         "extra-loose": "166%",
