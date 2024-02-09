@@ -3,7 +3,7 @@ import React from "react";
 
 function WhyUs() {
   return (
-    <div className=" w-full mx-auto mt-24 relative">
+    <div className=" w-full mx-auto -mt-12 relative">
       <div className=" w-full  absolute top-0 left-0 h-[354px]  bg-whyUsBackground2 bg-repeat-x bg-center" />
       <div className=" w-full max-w-[1440px] mx-auto ">
         <div className="h-[354px]  w-full max-w-[1280px] mx-auto relative ">

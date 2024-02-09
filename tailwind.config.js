@@ -11,6 +11,7 @@ module.exports = {
       backgroundImage: {
         statsBackground: "url('/StatsImg2.jpg')",
         buttonGradient: "linear-gradient(90deg, #FFEA55, #6A55FF)",
+        contactUs: "url('/ContactImg2.svg')",
         mail: "url('/ContactMail.svg')",
         phone: "url('/ContactPhone.svg')",
         facebook: "url('/ContactFacebook.svg')",

@@ -15,12 +15,13 @@ export default function Home() {
   return (
     <div>
       <main className=" bg-backgroundMain min-h-screen font-quicksand ">
-        <Nav />
-        <div className="grid gap-12">
+        {/* <Nav /> */}
+        <div className="grid">
           <Header />
           <AboutUs />
+          {/* <Service />
           <Stats />
-          <Service />
+
           <Contact />
           <WhyUs />
           <Questions>
@@ -29,7 +30,7 @@ export default function Home() {
             <Question />
             <Question />
           </Questions>
-          <Localization />
+          <Localization /> */}
         </div>
       </main>
       <Footer />
