@@ -1,27 +1,26 @@
+import Question from "@/components/Question";
 import AboutUs from "@/src/AboutUs";
 import Contact from "@/src/Contact";
+import Footer from "@/src/Footer";
 import Header from "@/src/Header";
+import Localization from "@/src/Localization";
 import Nav from "@/src/Nav";
+import Questions from "@/src/Questions";
+
 import Service from "@/src/Service";
 import Stats from "@/src/Stats";
 import WhyUs from "@/src/WhyUs";
-import Questions from "@/src/Questions";
-import Image from "next/image";
-import Question from "@/components/Question";
-import Localization from "@/src/Localization";
-import Footer from "@/src/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <main className=" bg-backgroundMain min-h-screen font-quicksand ">
-        {/* <Nav /> */}
+        <Nav />
         <div className="grid">
           <Header />
           <AboutUs />
-          {/* <Service />
           <Stats />
-
+          <Service />
           <Contact />
           <WhyUs />
           <Questions>
@@ -30,10 +29,10 @@ export default function Home() {
             <Question />
             <Question />
           </Questions>
-          <Localization /> */}
+          <Localization />
         </div>
       </main>
       <Footer />
-    </div>
+    </>
   );
 }

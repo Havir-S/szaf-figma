@@ -4,7 +4,8 @@ import React from "react";
 
 function Service() {
   return (
-    <div className=" bg-gradient-to-b from-backgroundMain to-[#030307] pb-12">
+    <div className=" pb-12">
+      {/* <div className=" bg-gradient-to-b from-backgroundMain to-[#030307] pb-12"> */}
       <div className="mx-auto w-[1440px] min-h-[400px] mt-12 ">
         <div className=" grid grid-cols-12 gap-y-16 mx-20 ">
           <div className=" col-span-full mx-auto">

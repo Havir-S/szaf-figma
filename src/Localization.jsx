@@ -19,6 +19,8 @@ function Localization() {
         </div>
         <div className=" bg-[#0E0E0E] w-full border  border-main  p-6 rounded-sm group">
           <div className=" mx-auto w-full rounded-sm h-[500px] border  border-main relative overflow-hidden ">
+            {/* GOOGLE MAP */}
+            <Map />
             <div className=" max-w-[455px] w-full h-full max-h-[132px] absolute bottom-0 right-0 transition duration-200 group-hover:translate-y-12 group-hover:opacity-0">
               <Image
                 src="/LocalizationImg3.jpg"
@@ -27,8 +29,6 @@ function Localization() {
                 className="contain"
               />
             </div>
-            {/* GOOGLE MAP */}
-            <Map />
           </div>
         </div>
         <div className=" my-12">

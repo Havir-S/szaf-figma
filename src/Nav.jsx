@@ -6,7 +6,7 @@ import NavHamburgerSvg from "./NavHamburgerSvg";
 function Nav() {
   return (
     <div className="sticky top-0 left-0 w-full gradient-dark">
-      <div className="mx-auto w-full max-w-[1440px] h-[120px] flex justify-between items-center md:justify-start px-4 sm:px-12   md:px-4 lg:px-20 gap-3 ">
+      <div className=" mx-auto w-full max-w-[1440px] h-[120px] flex justify-between items-center md:justify-start px-4 sm:px-12   md:px-4 lg:px-20 gap-3 ">
         <Link href="/" className="w-[172px] h-[68px] relative" tabIndex={0}>
           <Image
             src="/navLogo.png"
